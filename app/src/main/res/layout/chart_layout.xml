@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#ededf2">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/graph"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="5dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vehicle Chart"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:textAlignment="center"/>
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/temprorary_logo"
+                android:layout_gravity="center_horizontal"/>
+            <org.eazegraph.lib.charts.PieChart
+                android:id="@+id/chart"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_marginTop="0dp"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:id="@+id/bikes"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="55dp"
+                    android:layout_marginBottom="5dp">
+                    <View
+                        android:layout_width="20dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/bike_chart"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Bikes Available"
+                        android:paddingLeft="20dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/cars"
+                    android:layout_below="@id/bikes"
+                    android:layout_marginRight="60dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:gravity="center_vertical">
+                    <View
+                        android:layout_width="20dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/car_chart"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Cars Available"
+                        android:paddingLeft="20dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_below="@id/cars"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="5dp">
+                    <View
+                        android:layout_width="20dp"
+                        android:layout_height="match_parent"
+                        android:background="#F16F6B"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="No vehicles Available"
+                        android:paddingLeft="20dp"/>
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

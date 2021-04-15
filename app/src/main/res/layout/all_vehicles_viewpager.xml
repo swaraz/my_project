@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/All_vehicle_list">
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/visibility"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="No Vehicles Available"
+        android:textSize="25dp"
+        android:visibility="gone"/>
+    <TextView
+        android:id="@+id/visibility_bike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="No Bikes Available"
+        android:textSize="25dp"
+        android:visibility="gone"/>
+    <TextView
+        android:id="@+id/visibility_car"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="No cars Available"
+        android:textSize="25dp"
+        android:visibility="gone"/>
+</RelativeLayout>

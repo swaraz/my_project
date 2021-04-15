@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">MotorBazar</string>
+    <string name="all_vehicles">ALL</string>
+    <string name="bikes">Bikes</string>
+    <string name="cars">CARS</string>
+
+    <string name="wishlists">Wishlists</string>
+    <string name="sellinglists">Sellings</string>
+    <string name="soldlists">Sold</string>
+
+    <string name="category">Category</string>
+
+    <string name="title_activity_near_by_map">NearByMap</string>
+    <string-array name="vehicle_condition">
+        <item>Poor</item>
+        <item>Fair</item>
+        <item>Good</item>
+        <item>Like New</item>
+        <item>New</item>
+    </string-array>
+
+    <string-array name="sorting_item">
+        <item>Price Low to High</item>
+        <item>Price High to Low</item>
+        <item>Rating High to Low</item>
+        <item>Rating Low to High</item>
+    </string-array>
+
+
+    <string name="googleMap_api">AIzaSyDhHeoUJT7H4Vb2WKoZkdsu8s6BhJ7M41E</string>
+
+    <string name="enter_name">Details Required</string>
+    <string name="invalid_email">Enter valid email address</string>
+    <string name="enter_username">Username Required</string>
+    <string name="enter_password">Password Required</string>
+    <string name="invalid_password">Password doesnot match</string>
+    <string name="enter_contact">Contact Number Required</string>
+    <string name="enter_country">Country detail Required</string>
+    <string name="enter_city">City detail Required</string>
+    <string name="enter_provience">Provience detail Required</string>
+    <string name="current_new">Cannot be same as old password</string>
+</resources>

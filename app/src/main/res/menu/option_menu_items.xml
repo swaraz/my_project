@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/notification"
+        android:icon="@drawable/ic_notifications"
+        android:title="Notification"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/chart"
+        android:title="Chart" />
+    <item
+        android:id="@+id/changePassword"
+        android:title="Change Password" />
+    <item
+        android:id="@+id/logout"
+        android:title="Logout" />
+    <item
+        android:id="@+id/nearBy"
+        android:title="Near By" />
+    <item
+        android:id="@+id/sort"
+        android:title="Sort Items" />
+    <item
+        android:id="@+id/myProfile"
+        android:title="My Profile" />
+</menu>
